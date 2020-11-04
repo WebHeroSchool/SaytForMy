@@ -1,5 +1,5 @@
 .main-content__title {
-  font-family: roboto;
+  font-family: roboto,  sans-serif;
   color: purple;
   font-size: 30px;
 }
@@ -14,7 +14,7 @@
 }
 
 .main-content__description_size-small {
-  font-family: georgia;
+  font-family: georgia, sans-serif;
   font-size: 10px;
   color: grey;
 }
