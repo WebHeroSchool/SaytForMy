@@ -1,5 +1,5 @@
 .main-content__title {
-  font-family: roboto,  sans-serif;
+  font-family: roboto, sans-serif;
   color: purple;
   font-size: 30px;
 }
@@ -10,7 +10,7 @@
 
 .main-content__button {
   color: green;
-  font-family: georgia;
+  font-family: georgia, sans-serif;
 }
 
 .main-content__description_size-small {
