@@ -1,4 +1,4 @@
-.main-content__title{
+.main-content__title {
   font-family: roboto;
   color: purple;
   font-size: 30px;
@@ -6,11 +6,11 @@
 .menu__link {
     color:blue;
 }
-.main-content__button{
+.main-content__button {
     color: green;
     font-family: georgia;
 }
-.main-content__description_size-small{
+.main-content__description_size-small {
    font-family: georgia;
    font-size: 10px;
    color: grey;
