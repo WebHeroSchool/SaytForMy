@@ -1,20 +1,18 @@
-.main-content__title {
-  font-family: roboto, sans-serif;
-  color: purple;
-  font-size: 30px;
+.wrapper {
+  border:dashed 1px red;
 }
-
-.menu__link {
-  color: blue;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.main-content__button {
-  color: green;
-  font-family: georgia, sans-serif;
+.main-content__subtitle {
+  border: dashed 2px green;
 }
-
-.main-content__description_size-small {
-  font-family: georgia, sans-serif;
-  font-size: 10px;
-  color: grey;
+.menu__item {
+  padding: 0 13px;
+  border: dashed 1px red;
+}
+.menu__item:last-child {
+  padding-right: 0;
 }
