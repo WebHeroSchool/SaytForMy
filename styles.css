@@ -6,9 +6,6 @@
   justify-content: space-between;
   align-items: center;
 }
-.main-content__subtitle {
-  border: dashed 2px red;
-}
 .menu__item {
   padding: 0 13px;
   border: dashed 1px red;
