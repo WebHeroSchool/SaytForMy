@@ -1,31 +1,23 @@
-.header {
-  
+.header {  
   display: flex;
   
   justify-content: space-between;
   
-  align-items: center;
-  
+  align-items: center;  
 }
 
-.menu__item {
-  
+.menu__item {  
   padding: 0 13px;
   
-  border: dashed 1px red;
-  
+  border: dashed 1px red;  
 }
 
 .menu__item:last-child {
-  
-  padding-right: 0;
-  
+    padding-right: 0;
 }
 
-.logo {
-  
+.logo {  
   padding-left: 0;
   
-  border: dashed 1px red;
-  
+  border: dashed 1px red;  
 }
