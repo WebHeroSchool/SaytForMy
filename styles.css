@@ -1,12 +1,15 @@
 .header {  
-  display:flex;  
-  justify-content:space-between;  
-  align-items:center; 
+  display: flex; 
+  
+  justify-content: space-between; 
+  
+  align-items: center;  
 }
 
 .menu__item {  
   padding: 0 13px;
-  border:dashed 1px red; 
+  
+  border: dashed 1px red; 
 }
 
 .menu__item:last-child {
@@ -14,6 +17,7 @@
 }
 
 .logo {  
-  padding-left: 0;  
-  border:dashed 1px red; 
+  padding-left: 0; 
+  
+  border: dashed 1px red; 
 }
