@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__item {
+  padding: 0 13px;
+}
+.menu__item:last-child {
+  padding-right: 0;
+}
+.logo {
+  padding: 40px 0 40px 40px;
+  font: bold 24px/31px pt_serif;
+  width: 190px;
+  height:35px;
+}
+.logo__circle {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+}
+.logo_circle_color_dark-blue {
+  left: 5px;
+  top: 40px;
+  background: #0056EC;
+  border-radius: 50%;
+}
+.logo_circle_color_blue {
+  left: 13px;
+  top: 48px;
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+}
+.logo_circle_color_blue {
+  left: calc(50%-28px/2-444);
+  top: 47px;
+  background: #C8DBFB;
+  border-radius: 50%;
+  opacity: 0.7;
+}
