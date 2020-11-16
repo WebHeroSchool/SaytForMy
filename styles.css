@@ -33,11 +33,3 @@
   border-radius: 50%;
   opacity: 0.7;
 }
-}
-.logo_circle_color_blue {
-  left: calc(50%-28px/2-444);
-  top: 47px;
-  background: #C8DBFB;
-  border-radius: 50%;
-  opacity: 0.7;
-}
