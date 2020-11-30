@@ -2,13 +2,11 @@
   margin: 0 auto;
   width: 80%;
 }
-
 .header { 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .menu__item { 
   position: relative;
   margin-right: 26px;
@@ -16,7 +14,6 @@
   color: #000;
   text-decoration: none;
 }
-
 .menu__item_active:after { 
   position: absolute;
   display: block;
@@ -27,19 +24,15 @@
   background: #0056EC;
   transition: opacity 0.5s;
 }
-
 .menu__item:hover { 
   opacity: 0.5;
 }
-
 .menu__item:hover:after, menu__item_active:after { 
   opacity: 1;
 }
-
 .menu__item:last-child { 
   margin-right: 0;
 }
-
 .logo { 
   position: relative;
   padding: 40px 0;
@@ -48,7 +41,6 @@
   width: 190px;
   height: 35px;
 }
-
 .logo__circle { 
   position: absolute;
   left: 0;
@@ -58,11 +50,9 @@
   height: 28px;
   border-radius: 50%;
 }
-
 .logo__circle_color_dark-blue { 
   background: #0056EC;
 }
-
 .logo__circle_color_blue { 
   left: 8px;
   top: 56%;
