@@ -1,0 +1,25 @@
+@font лицо {
+    шрифт-семья: 'pt_serifbold';
+    src: URL('фоны/ptserif-bold-webfont.woff' )формат ('woff');
+    вес шрифта: нормальный;
+    шрифт-стиль: нормальный; 
+}
+
+@font лицо {
+    шрифт-семья: 'pt_serifbold_italic';
+    src: URL('фонты/ptserif-bolditalic-webfont.woff' )формат ('woff');
+    вес шрифта: нормальный;
+    шрифт-стиль: нормальный; 
+}
+@font лицо {
+    шрифт-семья: 'pt_serifitalic';
+    src: url('фонты/ptserif-italic-webfont.woff' )формат ('woff');
+    вес шрифта: нормальный;
+    шрифт-стиль: нормальный; 
+}
+@font лицо {
+    шрифт-семья: 'pt_serif';
+    src: URL('фонты/ptserif-регулярные-webfont.woff' )формат ('woff');
+    вес шрифта: нормальный;
+    шрифт-стиль: нормальный; 
+}
