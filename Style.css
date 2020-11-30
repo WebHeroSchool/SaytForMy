@@ -32,7 +32,7 @@
   opacity: 0.5;
 }
 
-.menu__item:hover:after, menu__item_active::after {
+.menu__item::hover:after, menu__item_active::after {
   opacity: 1;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .logo__circle_color_dark-blue {
-  background: #fff;
+  background: #0056EC;
 }
 
 .logo__circle_color_blue {
