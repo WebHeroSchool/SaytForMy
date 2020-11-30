@@ -1,70 +1,70 @@
-.wrapper {
-  margin: 0 auto;
-  width: 80%;
+. обертка { 
+  маржа: 0 авто;
+  ширина: 80% ;
 }
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu__item {
-  position: relative;
-  margin-right: 26px;
-  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
-  color: #000;
-  text-decoration: none;
+. заголовок { 
+  дисплей: flex;
+  обоснование-содержание: пространство между ними;
+  выравнивание элементов: центр;
 }
 
-.menu__item_active:after {
-  position: absolute;
-  display: block;
-  content: '';
-  left: 0;
-  width: 100%;
-  height: 3px;
-  background: #0056EC;
-  transition: opacity 0.5s;
+. menu__item { 
+  положение: относительное;
+  маржа справа: 26px ;
+  шрифт: 500 18px/21px Roboto, arial, helvetica, без засечек;
+  цвет  :000 евро;
+  текст-украшение: нет;
 }
 
-.menu__item:hover {
-  opacity: .5;
+. menu__item_active:после { 
+  позиция: абсолютная;
+  дисплей: блок;
+  содержание: '';
+  слева: 0;
+  ширина: 100% ;
+  высота: 3px ;
+  справочнаяинформация :  0056EC;
+  переход: непрозрачность 0.5s ; 
 }
 
-.menu__item:hover:after, menu__item_active:after {
-  opacity: 1;
+. menu__item:наведите курсор { 
+  непрозрачность: .5;
 }
 
-.menu__item:last-child {
-  margin-right: : 0;
+. menu__item:наведитекурсор:после , menu__item_active:после {
+  непрозрачность: 1;
 }
 
-.logo {
-  position: relative;
-  padding: 40px 0;
-  padding-left: 44px;
-  font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
-  width: 190px;
-  height: 35px;
+. menu__item:последний ребенок { 
+  маржа-право: : 0; 
 }
 
-.logo__circle {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
+. логотип { 
+  положение: относительное;
+  обивка: 40px  0;
+  обивка слева: 44px ;
+  шрифт: смелый 24px/31pxpt_serif, arial, helvetica, без засечек;
+  ширина: 190px ;
+  высота: 35px ; 
 }
 
-.logo__circle_color_dark-blue {
-  background: #0056EC;
+. logo__circle { 
+  позиция: абсолютная;
+  слева: 0;
+  топ: 50% ;
+  трансформировать : translateY(-50% );
+  ширина: 28px ;
+  высота: 28px ;
+  пограничный радиус : 50% ; 
 }
 
-.logo__circle_color_blue {
-  left: 8px;
-  top: 56%;
-  background: #C8DBFB;
-  opacity: 0.7;
+. logo__circle_color_dark-синий { 
+  справочнаяинформация :  0056EC; 
+}
+
+. logo__circle_color_blue { 
+  слева: 8px ;
+  верхний: 56% ;
+  справочнаяинформация :  C8DBFB;
+  непрозрачность: 0.7; 
 }
