@@ -2,6 +2,7 @@
   margin: 0 auto;
   width: 80%;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -9,7 +10,7 @@
   margin-bottom: 100px;
 }
 
-.menu__item {
+.menu__item { 
   position: relative;
   margin-right: 26px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
