@@ -108,6 +108,6 @@
   opacity: 0.5;
 }
 
-.image-content__image {
+.image {
   background: url(img/frame.svg) no-repeat right top;
 }
