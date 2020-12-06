@@ -37,7 +37,7 @@
 }
 
 .menu__item:last-child {
-  margin-right: : 0;
+  margin-right: 0;
 }
 
 .logo {
@@ -70,19 +70,14 @@
   opacity: 0.7;
 }
 
-.section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .main {
-  padding: 0 0 100px 0;
+  padding: 0 63% 0 0;
+  background: no-repeat top right url(img/frame.svg);
   }
 
 .main__title {
   margin: 0 0 40px 0;
-  font: bold 50px/65px pt_serif, arial, helvetica, sans-serif;
+  font: bold 50px/65px pt_serifbold, arial, helvetica, sans-serif;
 }
 
 .main__subtitle {
@@ -96,7 +91,7 @@
 .main__button {
   display: inline-block;
   font: 14px/16px Roboto, arial, helvetica, sans-serif;
-  color: @fff;
+  color: #FFF;
   background: #0056EC;
   padding: 14px 16px;
   text-decoration: none;
@@ -106,8 +101,4 @@
 
 .main__button:hover {
   opacity: 0.5;
-}
-
-.image {
-  background: url(img/frame.svg) no-repeat right top;
 }
