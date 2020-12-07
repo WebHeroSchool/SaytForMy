@@ -2,6 +2,7 @@
   margin: 0 auto;
   width: 80%;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -88,6 +89,7 @@
 .main__title-text_highlight {
   background: #ECF3FF;
 }
+
 .main__button {
   display: inline-block;
   font: 14px/16px Roboto, arial, helvetica, sans-serif;
