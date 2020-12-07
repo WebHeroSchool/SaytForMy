@@ -33,7 +33,7 @@
   opacity: 0.5;
 }
 
-.menu__item:hover::after, .menu__item_active::after {
+.menu__item:hover:after, .menu__item_active::after {
   opacity: 1;
 }
 
@@ -74,7 +74,7 @@
 .main {
   padding: 0 63% 100px 0;
   background: no-repeat top right url(img/frame.svg);
-  }
+}
 
 .main__title {
   margin: 0 0 40px 0;
@@ -99,7 +99,7 @@
   text-decoration: none;
   border-radius: 4px;
   transition: opacity 0.5s;
-  }
+}
 
 .main__button:hover {
   opacity: 0.5;
