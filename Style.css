@@ -30,10 +30,10 @@
 }
 
 .menu__item:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.menu__item:hover:after, menu__item_active:after {
+.menu__item:hover:after, .menu__item_active:after {
   opacity: 1;
 }
 
