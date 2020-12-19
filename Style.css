@@ -1,8 +1,7 @@
 @media (min-width: 769px) {
-  
-.wrapper {
-  margin:  0  auto;
-  width:  80%;
+  .wrapper {
+    margin: 0 auto;
+    width: 80%;
   }
 
 .header {
