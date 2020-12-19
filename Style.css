@@ -3,7 +3,8 @@
     margin: 0 auto;
     width: 80%;
   }
-.header {
+  
+  .header {
   display:    flex;
   justify-content:    space-between;
   align-items:    center;
