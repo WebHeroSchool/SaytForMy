@@ -3,15 +3,13 @@
     margin: 0 auto;
     width: 80%;
   }
-  
   .header {
-  display:    flex;
-  justify-content:    space-between;
-  align-items:    center;
-  margin-bottom: 145px;
-}
-
-.menu__item {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:145px;
+  }
+  .menu__item {
   position: relative;
   margin-right: 26px;
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
