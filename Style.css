@@ -305,8 +305,7 @@
     text-align: center;
     padding: 74% 0 0;
     background-size: 74%;
-    background-position: top center;
-    background: no-repeat url(img/Frame3.svg);
+    background: url(img/Frame1.svg) no-repeat center top;
   }
   
   .main__title {
