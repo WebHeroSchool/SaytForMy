@@ -3,6 +3,7 @@
     margin: 0 auto;
     width: 80%;
   }
+  
   .header {
     display: flex;
     justify-content: space-between;
@@ -304,7 +305,7 @@
     text-align: center;
     padding: 74% 0 0;
     background-size: 74%;
-    background: url(img/frame1.svg) no-repeat center top;
+    background: url(img/Frame1.svg) no-repeat center top;
   }
   
   .main__title {
