@@ -305,8 +305,7 @@
     text-align: center;
     padding: 74% 0 0;
     background-size: 74%;
-    background-position: top center;
-    background: no-repeat url(img/Frame3.svg);
+    background: no-repeat top center url(img/Frame3.svg);
   }
   
   .main__title {
@@ -340,8 +339,7 @@
       text-align: center;
       padding: 74% 0 0;
       background-size: 74%;
-      background-position: top center;
-      background: no-repeat url(img/Frame1.svg);
+      background: no-repeat top center url(img/Frame1.svg);
     }
   }
 }
