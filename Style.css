@@ -3,7 +3,6 @@
     margin: 0 auto;
     width: 80%;
   }
-  
   .header {
     display: flex;
     justify-content: space-between;
@@ -263,10 +262,9 @@
     list-style: none;
     text-align: center;
     background-color: #fff;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
     transition-duration: 0.25s;
   }
-  
   .menu__item {
     display: block;
     padding: 24px 24px;
