@@ -146,7 +146,7 @@
       background: no-repeat top right url(img/Frame3.svg);
     }
     
-     @keyframes flash {
+    @keyframes flash {
     to {
         font-size: 48px;
       }
