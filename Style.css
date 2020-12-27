@@ -76,34 +76,34 @@
     padding: 65px 65% 300px 0;
     background: no-repeat top right url(img/frame.svg);
   }
-  
+
   @keyframes flash {
     to {
       font-size: 63px;
     }
   }
-  
+
   .main__title {
     margin: 0 0 40px 0;
     font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
     animation: flash 1s infinite ease-in-out;
   }
-  
+
   .main__subtitle {
     margin: 0 80px 41px 0;
     font: 500 22px/26px Roboto, arial, helvetica, sans-serif;
   }
-  
+
   @keyframes move {
     to {
       padding: 15px 36px 19px 17px;
     }
   }
-  
+
   .main__title-text_highlight {
     background: #ecf3ff;
   }
-  
+
   .main__button {
     display: inline-block;
     font: 18px/21px Roboto, arial, helvetica, sans-serif;
@@ -115,38 +115,15 @@
     transition: opacity 0.5s;
     animation: move .3s infinite ease-in-out;
   }
-  
+
   .main__button:hover {
     opacity: 0.5;
   }
-  
+
   .hamburger-menu {
     display: none;
   }
-  
-  @keyframes smove {
-    from {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(1500px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  
-  .square {
-    position: absolute;
-    left: 10%;
-    top: 142px;
-    width: 50px;
-    height: 50px;
-    background-color: #0056ec;
-    border-radius: 50%;
-    animation: smove 5s infinite ease-in-out;
-  }
-  
+
   @media (max-width: 1367px) {
     .wrapper {
       width: 68%;
@@ -168,13 +145,13 @@
       padding: 0 55% 200px 0;
       background: no-repeat top right url(img/Frame3.svg);
     }
-    
+
     @keyframes flash {
       to {
         font-size: 48px;
       }
     }
-    
+
     .main__title {
       margin: 0 0 40px 0;
       font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
@@ -200,31 +177,8 @@
       border-radius: 4px;
       transition: opacity 0.5s;
     }
-    
-    @keyframes smove {
-      from {
-        transform: translateX(0);
-      }
-      50% {
-        transform: translateX(900px);
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }
-    
-    .square {
-      position: absolute;
-      left: 15%;
-      top: 100px;
-      width: 50px;
-      height: 50px;
-      background-color: #0056ec;
-      border-radius: 50%;
-      animation: smove 4s infinite ease-in-out;
-    }
   }
-  
+
   @media (max-width: 1025px) {
     .wrapper {
       width: 92%;
@@ -232,29 +186,6 @@
 
     .header {
       margin-bottom: 100px;
-    }
-    
-    @keyframes smove {
-      from {
-        transform: translateX(0);
-      }
-      50% {
-        transform: translateX(900px);
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }
-    
-    .square {
-      position: absolute;
-      left: 4%;
-      top: 120px;
-      width: 40px;
-      height: 40px;
-      background-color: #0056ec;
-      border-radius: 50%;
-      animation: smove 4s infinite ease-in-out;
     }
   }
 }
@@ -397,13 +328,13 @@
     background: url(img/Frame1.svg) no-repeat center top;
     background-size: 74%;
   }
-  
+
   @keyframes flash {
     to {
       font-size: 32px;
     }
   }
-  
+
   .main__title {
     margin: 0 0 40px 0;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
@@ -419,13 +350,13 @@
   .main__title-text_highlight {
     background: #ecf3ff;
   }
-  
+
   @keyframes move {
     to {
       padding: 15px 26px 14px 17px;
     }
   }
-  
+
   .main__button {
     display: inline-block;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
@@ -436,28 +367,5 @@
     border-radius: 4px;
     transition: opacity 0.5s;
     animation: move .3s infinite ease-in-out;
-  }
-  
-  @keyframes smove {
-    from {
-      transform: translateX(0);
-    }
-    50% {
-      transform: translateX(290px);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-  
-  .square {
-    position: absolute;
-    left: 7%;
-    top: 85px;
-    width: 40px;
-    height: 40px;
-    background-color: #0056ec;
-    border-radius: 50%;
-    animation: smove 3s infinite ease-in-out;
   }
 }
