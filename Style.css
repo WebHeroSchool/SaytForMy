@@ -145,7 +145,7 @@
       padding: 0 55% 200px 0;
       background: no-repeat top right url(img/Frame3.svg);
     }
-
+    
     @keyframes flash {
       to {
         font-size: 48px;
