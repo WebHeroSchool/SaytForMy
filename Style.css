@@ -2,23 +2,20 @@
   .wrapper {
     margin: 0 auto;
     width: 80%;
-  }
-  
+  }  
   .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 145px;
-  }
-  
+  }  
   .menu__item {
     position: relative;
     margin-right: 26px;
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
-  }
-  
+  }  
   .menu__item_active::after {
     position: absolute;
     display: block;
@@ -28,12 +25,10 @@
     height: 3px;
     background: #0056ec;
     transition: opacity 0.5s;
-  }
-  
+  }  
   .menu__item:hover {
     opacity: 0.5;
-  }
-  
+  }  
   .menu__item:hover::after .menu__item_active::after {
     opacity: 1;
   }
