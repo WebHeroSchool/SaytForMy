@@ -79,7 +79,7 @@
   
   @keyframes flash {
     to {
-    font-size: 63px;
+      font-size: 63px;
     }
   }
   
@@ -131,8 +131,8 @@
     50% {
       transform: translateX(1500px);
     }
-  100% {
-    transform: translateX(0);
+    100% {
+      transform: translateX(0);
     }
   }
   
