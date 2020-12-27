@@ -147,7 +147,7 @@
     }
     
     @keyframes flash {
-      to {
+    to {
         font-size: 48px;
       }
     }
