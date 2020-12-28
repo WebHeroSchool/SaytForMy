@@ -76,7 +76,7 @@
     padding: 65px 65% 300px 0;
     background: no-repeat top right url(img/frame.svg);
   }
-
+  
   @keyframes flash {
     to {
       font-size: 63px;
@@ -113,7 +113,7 @@
     text-decoration: none;
     border-radius: 4px;
     transition: opacity 0.5s;
-    animation: move .3s 30 ease-in-out;
+    animation: move 0.3s 30 ease-in-out;
   }
 
   .main__button:hover {
@@ -146,11 +146,11 @@
       background: no-repeat top right url(img/Frame3.svg);
     }
 
-    @keyframes flash {
-      to {
-        font-size: 48px;
-      }
+     @keyframes flash {
+    to {
+      font-size: 48px;
     }
+  }
 
     .main__title {
       margin: 0 0 40px 0;
@@ -366,6 +366,6 @@
     text-decoration: none;
     border-radius: 4px;
     transition: opacity 0.5s;
-    animation: move .3s 30 ease-in-out;
+    animation: move 0.3s 30 ease-in-out;
   }
 }
