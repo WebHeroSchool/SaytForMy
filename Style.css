@@ -1,4 +1,4 @@
-@media (min-width: 769px) {
+@media (min-width: 850px) {
   .wrapper {
     margin: 0 auto;
     width: 80%;
@@ -86,7 +86,7 @@
   .main__title {
     margin: 0 0 40px 0;
     font: bold 66px/87px pt_serifbold, arial, helvetica, sans-serif;
-    animation: flash 1s infinite ease-in-out;
+    animation: flash 1s 10 ease-in-out;
   }
 
   .main__subtitle {
@@ -113,7 +113,7 @@
     text-decoration: none;
     border-radius: 4px;
     transition: opacity 0.5s;
-    animation: move 0.3s infinite ease-in-out;
+    animation: move .3s 30 ease-in-out;
   }
 
   .main__button:hover {
@@ -145,7 +145,7 @@
       padding: 0 55% 200px 0;
       background: no-repeat top right url(img/Frame3.svg);
     }
-    
+
     @keyframes flash {
       to {
         font-size: 48px;
@@ -155,7 +155,7 @@
     .main__title {
       margin: 0 0 40px 0;
       font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
-      animation: flash 1s infinite ease-in-out;
+      animation: flash 1s 10 ease-in-out;
     }
 
     .main__subtitle {
@@ -190,7 +190,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
   .wrapper {
     margin: 0 auto;
     width: 88%;
@@ -336,13 +336,13 @@
   }
 
   .main__title {
-    margin: 0 0 40px 0;
+    margin: 0 0 38px 0;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
-    animation: flash 1s infinite ease-in-out;
+    animation: flash 1s 10 ease-in-out;
   }
 
   .main__subtitle {
-    margin: 0 0 25px 0;
+    margin: 0 0 24px 0;
     padding: 0 25px;
     font: 500 16px/19px Roboto, arial, helvetica, sans-serif;
   }
@@ -366,6 +366,6 @@
     text-decoration: none;
     border-radius: 4px;
     transition: opacity 0.5s;
-    animation: move 0.3s infinite ease-in-out;
+    animation: move .3s 30 ease-in-out;
   }
 }
