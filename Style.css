@@ -145,12 +145,12 @@
       padding: 0 55% 200px 0;
       background: no-repeat top right url(img/Frame3.svg);
     }
-
-     @keyframes flash {
-    to {
-      font-size: 48px;
+    
+    @keyframes flash {
+      to {
+        font-size: 48px;
+      }
     }
-  }
 
     .main__title {
       margin: 0 0 40px 0;
